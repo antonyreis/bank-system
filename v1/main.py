@@ -33,6 +33,7 @@ def sacar():
     global limite_valor
     global LIMITE_SAQUES
     global saldo
+    global saques_realizados
 
     if saldo <= 0:
         return "Não há valor disponível para saque."
