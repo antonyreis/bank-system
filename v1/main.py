@@ -10,6 +10,7 @@ menu = """
 saldo = 0
 limite_valor = 500
 LIMITE_SAQUES = 3
+saques_realizados = 0
 extrato = []
 
 
@@ -17,7 +18,7 @@ def depositar():
     global saldo
     valor = float(input("Informe o valor que você deseja depositar: "))
 
-    if valor < 0:
+    if valor <= 0:
         return("Valor depositado inválido.")
 
     saldo += valor
@@ -36,7 +37,7 @@ def sacar():
     if saldo <= 0:
         return "Não há valor disponível para saque."
     
-    if LIMITE_SAQUES == 0:
+    if saques_realizados == LIMITE_SAQUES:
         return "Limite de saques excedido, tente novamente outro dia."
      
     valor = float(input("Informe o valor que deseja sacar: "))
@@ -48,7 +49,7 @@ def sacar():
         return f"Valor indisponível na conta. Saldo disponível: {saldo:.2f}"
 
     saldo -= valor
-    LIMITE_SAQUES -= 1
+    saques_realizados += 1
     atualiza_extrato("Saque", saldo, valor)
 
     return f"""
