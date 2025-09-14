@@ -117,7 +117,7 @@ def lista() -> None:
     
 def depositar(saldo, valor, /):
     if valor <= 0:
-            return("Valor depositado inválido.")
+        return("Valor depositado inválido.")
     
     saldo += valor
     atualiza_extrato(saldo, valor, op="Depósito")

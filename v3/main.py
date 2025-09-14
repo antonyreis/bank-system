@@ -69,7 +69,7 @@ class ContaCorrente(Conta):
     def __str__(self):
         return f"""
             Agência:\t {self.agencia}
-            C\C:t\t\ {self.numero_conta}
+            C/C:\t {self.numero_conta}
             Titular:\t {self.cliente.nome}
         """
 
