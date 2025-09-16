@@ -128,8 +128,8 @@ class Saque(Transacao):
         
         if sucesso:
             conta.historico.adicionar_transacao(self)
-    
-class Historico:
+
+class Historico():
     def __init__(self):
         self._transacoes = []
         
