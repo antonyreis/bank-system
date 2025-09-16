@@ -1,26 +1,44 @@
-# 🏦 Sistema Bancário - Evolução das Versões
+# 🏦 Bank System - Sistema Bancário Evolutivo
 
-Este repositório documenta o desenvolvimento progressivo de um sistema bancário simples em Python, desde implementações básicas até versões mais sofisticadas e organizadas.
+> **Um projeto educacional que demonstra a evolução gradual de um sistema bancário em Python, desde implementações básicas até arquiteturas robustas e bem estruturadas.**
 
-## 📋 Funcionalidades
+## 🎯 Sobre o Projeto
 
-- **Depósito**: Adicionar valores à conta
-- **Saque**: Retirar valores com limite diário e por operação
-- **Extrato**: Visualizar histórico de transações e saldo atual
-- **Controles de segurança**: Limites de valor e quantidade de operações
+Este repositório apresenta o desenvolvimento incremental de um sistema bancário simples, onde cada versão representa um marco na jornada de aprendizado e melhoria contínua do código Python. É ideal para estudantes e desenvolvedores que desejam entender como um projeto evolui desde conceitos básicos até implementações mais sofisticadas.
 
-## 🚀 Objetivo
+## ⚡ Funcionalidades Principais
 
-Demonstrar a evolução de código Python através de diferentes versões, aplicando conceitos como:
-- Programação procedural vs. funcional
-- Organização e modularização de código
-- Boas práticas de desenvolvimento
-- Tratamento de erros e validações
+- **💰 Depósito**: Adição segura de valores à conta
+- **💸 Saque**: Retirada com controles de limite diário e por transação
+- **📊 Extrato**: Histórico completo de movimentações e saldo atual
+- **🔒 Segurança**: Validações e limites para operações bancárias
 
-## 📁 Estrutura
+## 📚 Objetivos Educacionais
 
-Cada versão representa uma etapa na evolução do sistema, mostrando melhorias na arquitetura, legibilidade e manutenibilidade do código.
+O projeto demonstra a aplicação prática de conceitos fundamentais:
+
+- **Evolução Arquitetural**: Da programação procedural para padrões mais avançados
+- **Modularização**: Organização e separação de responsabilidades
+- **Boas Práticas**: Clean Code, tratamento de erros e validações
+- **Refatoração**: Melhoria contínua da qualidade do código
+
+## 🔄 Estrutura Evolutiva
+
+Cada versão do sistema representa uma etapa de crescimento, mostrando:
+
+- Melhorias na **legibilidade** do código
+- Aumento da **manutenibilidade**
+- Implementação de **padrões de projeto**
+- Aprimoramento do **tratamento de erros**
+
+## 🎓 Público-Alvo
+
+Perfeito para:
+- Estudantes de programação Python
+- Desenvolvedores iniciantes buscando boas práticas
+- Educadores procurando exemplos práticos de evolução de código
+- Profissionais interessados em refatoração e melhoria contínua
 
 ---
 
-*Projeto educacional para aprendizado de Python e boas práticas de programação.*
+*Este é um projeto educacional focado no aprendizado de Python e desenvolvimento de software de qualidade.*
