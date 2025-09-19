@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
     
 setup(
-    name="bank_sys",
+    name="tunes-sys-bank",
     version="0.0.1",
     author="Antony Matheus",
     author_email="tonyto.matheus@gmail.com",
