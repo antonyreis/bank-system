@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as f:
+with open("README.md", encoding="utf-8") as f:
     page_description = f.read()
     
-with open("requirementes.txt") as f:
-    page_description = f.read().splitlines()
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
     
 setup(
     name="bank_sys",

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bank_sys.egg-info/PKG-INFO
+bank_sys.egg-info/SOURCES.txt
+bank_sys.egg-info/dependency_links.txt
+bank_sys.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cliente.py
+tests/test_conta.py
+tests/test_transacoes.py
